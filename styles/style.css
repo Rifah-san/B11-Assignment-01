@@ -14,18 +14,35 @@ p {
     font-size: 12px;
     color: rgba(14, 14, 14, 0.7);
 }
-div {border: 1px solid gray;}
+
+.header {
+    background-color: rgb(237, 237, 237);
+    border: 2px solid rgb(237, 237, 237);
+}
 main {
     background-color: rgb(237, 237, 237);
 }
-nav {
+nav { 
     margin: 25px 50px ;
-    border: 1px solid rgb(155, 155, 155);
-    /* height: 75px; */
     display: flex;
     justify-content: space-between;
 }
-.banner { border: 1px solid gray;
+nav > h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+nav > button {
+    padding: 10px 15px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 5px;
+    font-size: 12px;
+}
+.banner { 
+    background-color: rgb(198, 228, 214);
+    border: 1px solid transparent;
+    border-radius: 25px;
     width: 1150px;
     height: 450px;
     margin: auto;
@@ -35,46 +52,99 @@ nav {
 .b-heading {
    padding: 100px 50px;
 }
-.b-content >img  {
+.b-heading > p {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 20px;
+    font-weight: 500;
+} 
+.b-heading > h1 {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.b-heading > button {
+    padding: 10px 15px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.b-content > img  {
     width: 400px;
     height: 300px;
     padding: 75px 50px;
    }
 .pillars {
     width: 1150px;
-    margin: auto;
+    margin: 50px auto;
 }
 .p-heading {
-    
+    padding: 15px 0;
 }
 .p-content {
-    display: flex;
-    
+   display: flex;
+   justify-content: space-between;    
 } 
 .pillar-box {
-    /* width: 240px;
-    height: 240px; */
+    background-color: white;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+    padding: 15px;
 }
 .visions {
     width: 1150px;
     margin: 50px auto;
 }
-.v-heading{
-
+.v-heading > p {
+    padding: 15px 0;
 }
 .v-content{
     display: flex;
     justify-content: space-between;
 }
 .vision-box{
+    background-color:rgb(198, 228, 214) ;
     width: 320px;
     height: 240px;
     padding: 25px;
+    border-radius: 20px;
+}
+.vision-box > h4 {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.vision-box > p {
+    padding: 10px 0;
+}
+.vision-box > button {
+    padding: 10px 15px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 30px;
 }
 .quote {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
     width: 1150px;
     margin: 50px auto;
-    padding: 50px 25px;
+    padding: 30px 25px;
+}
+.q-title {
+    margin-top: 15px;
+}
+.q-title p{
+    padding: 5px 0;
 }
 .opinion {
     width: 1150px;
