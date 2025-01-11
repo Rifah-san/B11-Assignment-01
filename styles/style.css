@@ -6,63 +6,66 @@
     font-family: Fira Sans;
 }
 /* shared styles */
-h2{
+   h2{
     font-size: 30px;
     font-weight: 700;
-}
-p {
+     }
+   p {
     font-size: 12px;
     color: rgba(14, 14, 14, 0.7);
-}
+     }
+
+
 .header {
     background-color: rgb(242, 242, 242);
     border: 2px solid rgb(242, 242, 242);
 }
+
 main {
     background-color: rgb(242, 242, 242);
 }
-nav { 
-    margin: 25px 50px ;
-    display: flex;
-    justify-content: space-between;
-}
-nav > h3 {
-    font-size: 28px;
-    font-weight: 700;
-}
-nav > button {
-    padding: 10px 15px;
-    background-color: rgb(0, 106, 80);
-    color: white;
-    border: 1px solid rgb(0, 106, 80);
-    border-radius: 5px;
-    font-size: 12px;
-    cursor: pointer;
-}
+   nav { 
+      margin: 25px 50px ;
+      display: flex;
+      justify-content: space-between;
+     }
+       nav > h3 {
+           font-size: 28px;
+           font-weight: 700;
+             }
+       nav > button {
+           padding: 10px 15px;
+           background-color: rgb(0, 106, 80);
+           color: white;
+           border: 1px solid rgb(0, 106, 80);
+           border-radius: 5px;
+           font-size: 12px;
+           cursor: pointer;
+           }
 .banner { 
-    background-color: rgb(198, 228, 214);
-    border: 1px solid transparent;
-    border-radius: 25px;
-    width: 1150px;
-    height: 450px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-.b-heading {
-   padding: 100px 50px;
-}
-.b-heading > p {
+     background-color: rgb(198, 228, 214);
+     border: 1px solid transparent;
+     border-radius: 25px;
+     width: 1150px;
+     height: 450px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     }
+    .b-heading {
+       padding: 100px 50px;
+     }
+    .b-heading > p {
     color: rgba(14, 14, 14, 0.5);
     font-size: 20px;
     font-weight: 500;
-} 
-.b-heading > h1 {
+     } 
+    .b-heading > h1 {
     font-size: 45px;
     font-weight: 700;
     padding: 15px 0;
 }
-.b-heading > button {
+    .b-heading > button {
     padding: 10px 15px;
     background-color: rgb(0, 106, 80);
     color: white;
@@ -72,7 +75,7 @@ nav > button {
     margin-top: 10px;
     cursor: pointer;
 }
-.b-content > img  {
+   .b-content > img  {
     width: 400px;
     height: 300px;
     padding: 75px 50px;
@@ -81,20 +84,20 @@ nav > button {
     width: 1150px;
     margin: 50px auto;
 }
-.p-heading {
+   .p-heading {
     padding: 15px 0;
 }
-.p-content {
+   .p-content {
    display: flex;
    justify-content: space-between;    
 } 
-.pillar-box > h4 {
+   .pillar-box > h4 {
    padding: 10px 0;
 }
-.pillar-box > p {
+   .pillar-box > p {
     padding: 10px 0;
  }
-.pillar-box {
+   .pillar-box {
     background-color: white;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 15px;
@@ -106,29 +109,29 @@ nav > button {
     width: 1150px;
     margin: 50px auto;
 }
-.v-heading > p {
+   .v-heading > p {
     padding: 15px 0;
 }
-.v-content{
+   .v-content{
     display: flex;
     justify-content: space-between;
 }
-.vision-box{
+   .vision-box{
     background-color:rgb(198, 228, 214) ;
     width: 320px;
     height: 240px;
     padding: 25px;
     border-radius: 20px;
 }
-.vision-box > h4 {
+   .vision-box > h4 {
     padding: 10px 0;
     font-size: 20px;
     font-weight: 700;
 }
-.vision-box > p {
+   .vision-box > p {
     padding: 10px 0;
 }
-.vision-box > button {
+   .vision-box > button {
     padding: 10px 15px;
     background-color: rgb(0, 106, 80);
     color: white;
@@ -148,20 +151,20 @@ nav > button {
     margin: 50px auto;
     padding: 30px 25px;
 }
-.q-title {
+   .q-title {
     margin-top: 15px;
 }
-.q-title p{
+   .q-title p{
     padding: 5px 0;
 }
 .opinion {
     width: 1150px;
     margin: 50px auto;
 }
-.op-heading {
+   .op-heading {
     padding: 15px 0;
 }
-.op-content {
+   .op-content {
     border: 1px solid transparent;
     border-radius: 20px;
     background-color: white;
@@ -172,15 +175,15 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-th ,td  {
+    th ,td  {
     border: 1px solid rgb(175, 175, 175);
     padding: 20px 20px;
     text-align: left;
 }
-th{
+    th{
     background-color: rgb(198, 228, 214);
 }
-select {
+    select {
     border-radius: 5px;
     padding: 5px;
     background-color: rgb(198, 228, 214);
@@ -190,13 +193,13 @@ select {
     width: 1150px;
     margin: 50px auto;
 }
-.n-heading > p  {
+    .n-heading > p  {
     padding: 15px 0;
 }
-.n-content {
+    .n-content {
     
 }
-.newsbox {
+    .newsbox {
     background: white;
     border: 1px solid white;
     border-radius: 20px;
@@ -206,27 +209,27 @@ select {
     justify-content: space-around;
     margin: 12px;
 }
-.news-L >img {
+    .news-L >img {
     border: 1px solid transparent;
     border-radius: 20px;
     width: 360px;
     height: 240px;
 }
-.news-R {
+    .news-R {
     padding-left: 20px;
 }
-time {
+    time {
     font-size: 12px;
     color: rgba(14, 14, 14, 0.7);
 }
-.news-R >h3 {
+    .news-R >h3 {
     font-size: 26px;
     font-weight: 700;
 }
-.news-R > p {
+    .news-R > p {
     padding: 10px 0;
 }
-.news-R > button {
+    .news-R > button {
     padding: 10px 15px;
     margin: 10px 0;
     background-color: rgb(0, 106, 80);
@@ -236,7 +239,7 @@ time {
     font-size: 12px;
     cursor: pointer;
 }
-.news-R img {
+   .news-R img {
     width: 110px;
     height: 35px;
 }
@@ -245,18 +248,18 @@ time {
     margin: auto;
     text-align: center;
 }
-.d-heading > p{
+    .d-heading > p{
     padding: 10px;
 }
-.donate-box{
+    .donate-box{
     padding: 10px;
     display: flex;
     justify-content: center;
 }
-.d-btn {
+    .d-btn {
     padding: 2px 10px;
 }
-.donate-box button {
+    .donate-box button {
     padding: 20px;
     font-size: 26px;
     font-weight: 500;
@@ -265,16 +268,16 @@ time {
     cursor: pointer;
     background-color: white;
 }
-.d-btn :hover {
+    .d-btn :hover {
     background-color:rgb(198, 228, 214) ;
     /* color: white; */
 }
-.donate-more > input {
+    .donate-more > input {
     padding: 10px 200px;
     margin: 13px;
     border: 1px solid white;
 }
-.donate-more >button {
+    .donate-more >button {
     padding: 10px 15px;
     background-color: rgb(0, 106, 80);
     color: white;
@@ -292,24 +295,24 @@ time {
     text-align: center;
     padding-bottom: 50px;
 }
-.sub-heading {
+    .sub-heading {
     margin-top: 50px;
 }
-.sub-heading > h2 {
+    .sub-heading > h2 {
     font-size: 30px;
 }
-.sub-heading > p {
+    .sub-heading > p {
     padding: 10px;
     font-size: 12px;
     color: rgba(14, 14, 14, 0.7);
 }
-.sub-content {
+    .sub-content {
     padding: 10px;
     display: flex;
     justify-content: center;
     
 }
-.sub-content input {
+    .sub-content input {
     margin: 0;
     padding: 10px;
     padding-right: 280px;
@@ -321,7 +324,7 @@ time {
     border-right: none;
 
 }
-.sub-content button {
+    .sub-content button {
     cursor: pointer;
     padding: 10px 20px;
     margin: 0;
@@ -333,7 +336,7 @@ time {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-.subscribe > p {
+    .subscribe > p {
     padding: 10px;
     padding-bottom: 50px;
     font-size: 12px;
@@ -343,16 +346,16 @@ footer {
     margin-top: 50px;
     text-align: center;
 }
-.f-heading {
+    .f-heading {
     padding: 25px;
 }
-.f-content {
+    .f-content {
     padding: 25px;
 }
-hr {
+    hr {
     color: 1px solid rgba(203, 203, 203, 0.715);
 }
-.f-content img {
+    .f-content img {
     height: 20px;
     width: 20px;
     padding: 10px;
