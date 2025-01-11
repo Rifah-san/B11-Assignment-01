@@ -5,10 +5,22 @@
     padding: 0;
     font-family: Fira Sans;
 }
+/* shared styles */
+h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+p {
+    font-size: 12px;
+    color: rgba(14, 14, 14, 0.7);
+}
 div {border: 1px solid gray;}
+main {
+    background-color: rgb(237, 237, 237);
+}
 nav {
-    margin: 25px 30px ;
-    border: 1px solid gray;
+    margin: 25px 50px ;
+    border: 1px solid rgb(155, 155, 155);
     /* height: 75px; */
     display: flex;
     justify-content: space-between;
@@ -18,13 +30,16 @@ nav {
     height: 450px;
     margin: auto;
     display: flex;
+    justify-content: space-between;
 }
 .b-heading {
-    
+   padding: 100px 50px;
 }
-.b-content {
-    
-}
+.b-content >img  {
+    width: 400px;
+    height: 300px;
+    padding: 75px 50px;
+   }
 .pillars {
     width: 1150px;
     margin: auto;
@@ -42,41 +57,218 @@ nav {
 }
 .visions {
     width: 1150px;
-    margin: auto;
+    margin: 50px auto;
 }
 .v-heading{
 
 }
 .v-content{
     display: flex;
+    justify-content: space-between;
+}
+.vision-box{
+    width: 320px;
+    height: 240px;
+    padding: 25px;
 }
 .quote {
     width: 1150px;
-    margin: auto;
+    margin: 50px auto;
+    padding: 50px 25px;
 }
 .opinion {
     width: 1150px;
+    margin: 50px auto;
+}
+.op-heading {
+    padding: 15px 0;
+}
+.op-content {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    padding: 25px;
+}
+table {
     margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+th ,td  {
+    border: 1px solid rgb(175, 175, 175);
+    padding: 20px 20px;
+    text-align: left;
+}
+th{
+    background-color: rgb(198, 228, 214);
+}
+select {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(198, 228, 214);
 }
 
 .news {
     width: 1150px;
-    margin: auto;
+    margin: 50px auto;
+}
+.n-heading > p  {
+    padding: 15px 0;
 }
 .n-content {
     
 }
 .newsbox {
+    background: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 25px;
+    height: 250px;
     display: flex;
+    justify-content: space-around;
+    margin: 12px;
+}
+.news-L >img {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 360px;
+    height: 240px;
+}
+.news-R {
+    padding-left: 20px;
+}
+time {
+    font-size: 12px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-R >h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+.news-R > p {
+    padding: 10px;
+}
+.news-R > button {
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 5px;
+    font-size: 12px;
 }
 .donate {
     width: 1150px;
     margin: auto;
+    text-align: center;
 }
-.donate-box {
+.d-heading > p{
+    padding: 10px;
+}
+.donate-box{
+    padding: 10px;
     display: flex;
+    justify-content: center;
+}
+.d-btn {
+    padding: 2px 10px;
+}
+.donate-box button {
+    padding: 20px;
+    font-size: 26px;
+    font-weight: 500;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.d-btn :hover {
+    background-color:rgb(198, 228, 214) ;
+    /* color: white; */
+}
+.donate-more > input {
+    padding: 10px 200px;
+    margin: 13px;
+    border: 1px solid white;
+}
+.donate-more >button {
+    padding: 10px 15px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 5px;
+    font-size: 12px;
 }
 .subscribe {
+    border: 1px solid rgb(198, 228, 214) ;
+    border-radius: 20px;
+    background: rgb(198, 228, 214);
     width: 1150px;
-    margin: auto;
+    margin: 50px auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sub-heading {
+    margin-top: 50px;
+}
+.sub-heading > h2 {
+    font-size: 30px;
+}
+.sub-heading > p {
+    padding: 10px;
+    font-size: 12px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.sub-content {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.sub-content input {
+    margin: 0;
+    padding: 10px;
+    padding-right: 280px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid white; 
+    border-right: none;
+
+}
+.sub-content button {
+    padding: 10px 20px;
+    margin: 0;
+    color: white;
+    background-color: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.subscribe > p {
+    padding: 10px;
+    padding-bottom: 50px;
+    font-size: 12px;
+    color: rgba(14, 14, 14, 0.7);
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+.f-heading {
+    padding: 25px;
+}
+.f-content {
+    padding: 25px;
+}
+hr {
+    color: rgba(14, 14, 14, 0.1);
+}
+.f-content img {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
 }
