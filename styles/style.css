@@ -14,13 +14,12 @@ p {
     font-size: 12px;
     color: rgba(14, 14, 14, 0.7);
 }
-
 .header {
-    background-color: rgb(237, 237, 237);
-    border: 2px solid rgb(237, 237, 237);
+    background-color: rgb(242, 242, 242);
+    border: 2px solid rgb(242, 242, 242);
 }
 main {
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(242, 242, 242);
 }
 nav { 
     margin: 25px 50px ;
@@ -38,6 +37,7 @@ nav > button {
     border: 1px solid rgb(0, 106, 80);
     border-radius: 5px;
     font-size: 12px;
+    cursor: pointer;
 }
 .banner { 
     background-color: rgb(198, 228, 214);
@@ -45,7 +45,7 @@ nav > button {
     border-radius: 25px;
     width: 1150px;
     height: 450px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -70,6 +70,7 @@ nav > button {
     border-radius: 5px;
     font-size: 12px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .b-content > img  {
     width: 400px;
@@ -87,6 +88,12 @@ nav > button {
    display: flex;
    justify-content: space-between;    
 } 
+.pillar-box > h4 {
+   padding: 10px 0;
+}
+.pillar-box > p {
+    padding: 10px 0;
+ }
 .pillar-box {
     background-color: white;
     border: 1px solid rgb(230, 230, 230);
@@ -129,6 +136,7 @@ nav > button {
     border-radius: 5px;
     font-size: 12px;
     margin-top: 30px;
+    cursor: pointer;
 }
 .quote {
     background-color: white;
@@ -216,16 +224,21 @@ time {
     font-weight: 700;
 }
 .news-R > p {
-    padding: 10px;
+    padding: 10px 0;
 }
 .news-R > button {
     padding: 10px 15px;
-    margin: 10px;
+    margin: 10px 0;
     background-color: rgb(0, 106, 80);
     color: white;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 5px;
     font-size: 12px;
+    cursor: pointer;
+}
+.news-R img {
+    width: 110px;
+    height: 35px;
 }
 .donate {
     width: 1150px;
@@ -268,6 +281,7 @@ time {
     border: 1px solid rgb(0, 106, 80);
     border-radius: 5px;
     font-size: 12px;
+    cursor: pointer;
 }
 .subscribe {
     border: 1px solid rgb(198, 228, 214) ;
@@ -308,6 +322,7 @@ time {
 
 }
 .sub-content button {
+    cursor: pointer;
     padding: 10px 20px;
     margin: 0;
     color: white;
@@ -335,7 +350,7 @@ footer {
     padding: 25px;
 }
 hr {
-    color: rgba(14, 14, 14, 0.1);
+    color: 1px solid rgba(203, 203, 203, 0.715);
 }
 .f-content img {
     height: 20px;
